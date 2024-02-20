@@ -9,6 +9,9 @@
 	<properties>
 		<!-- package で TEST 実行しない -->
 	    <skipTests>true</skipTests>
+        <java.version>11</java.version>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
 	</properties>
 
 	<dependencies>
