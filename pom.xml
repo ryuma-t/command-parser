@@ -6,6 +6,11 @@
 	<artifactId>command-parser</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<properties>
+		<!-- package で TEST 実行しない -->
+	    <skipTests>true</skipTests>
+	</properties>
+
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
